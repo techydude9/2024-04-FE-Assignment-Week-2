@@ -1,1 +1,20 @@
-/* Style CSS for Week 2 coding assignment */
+/* Style CSS for Week 2 coding assignment
+   Author:  Bob Ruzga - 2024 04 24 FE Cohort
+   Subject:  CSS Lab
+   FE coding assignment
+*/
+/*----------------------------------------------------
+Key Terms:
+* selector
+* class
+* id 
+* element 
+* flex 
+
+Objectives:
+    - Use only external styling (this .css file)
+    - Every Element must be styled
+    - Create style rules using class, id, and element selectors
+    - document appropriately
+*/
+* {background-color: rgb(196, 238, 238);}
