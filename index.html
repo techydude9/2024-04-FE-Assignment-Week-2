@@ -28,15 +28,17 @@
 <body>
 
     <h1>Ruzga Solutions Group LLC</h1> <!-- using the H1 header size-->
-        <!-- This is the section to create 3 pages for this website, a home, About Us and a Contact Us set of pages --> 
-        <div>
+        <!-- This is the section to create 3 pages for this website, a home, About Us and a Contact Us set of pages
+            added class styling for the main nav bar on all pages --> 
+        <div class="nav-bar-main">
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
             <a href="contact.html">Contact Us</a>
         </div>
         <br>
-        <!-- placed an image of the CEO/Founder of RSG LLC here-->
-        <img src="images/RR Portrait.jpg" width="100" alt="Owner/Founder Bob Ruzga">
+        <!-- placed an image of the CEO/Founder of RSG LLC here.
+            Using CSS Stylesheet to syle image -->
+        <img id="RJR-Portrait-img" src="images/RR Portrait.jpg" width="100" alt="Owner/Founder Bob Ruzga">
     <!-- Starting a division section so I can describe who we are-->
     <div>
         <p>
@@ -47,7 +49,8 @@
                 <li>State of the Art</li>
                 <li>Timely</li>
                 <li>Within your budget</li>
-            </ul></h4>
+            </ul></h4></p>
+        <p class="home-whatwedo">    
             These solutions brings immediate, exceptional value to your organization! We have decades of experience to offer our clients. <br>
             Whether it's coaching your teams neccessary leadership skills to make them perform at an even higher performance level, <br>
             providing the latest in technology consulting whether it's Artifical Intelligence, Cloud computing, infrastructure or <br>
@@ -56,8 +59,8 @@
     </div>
         <!-- Bottom of the page -->
         <hr>
-    <footer>
-        <p>Copywrite 2024 by Ruzga Solutions Group LLC</p>
+    <footer class="all-footers">
+        <p> Copyright 2024 by Ruzga Solutions Group LLC</p>
     </footer>
 </main>
 </body>
