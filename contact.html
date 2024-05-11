@@ -1,7 +1,8 @@
-<!-- This is Week 1 Coding Assignment for Front End Dev class.
+<!-- This is Week 2 Coding Assignment for Front End Dev class.
     Author: Bob Ruzga
-    Subject: Week 1 coding assignment
-    Objective is to begin the creation of my Ruzga Solutions Group LLC website to eventhually be used as my LLC website
+    Subject: Week 2 coding assignment - Using Style.CSS for external styling
+    
+    Week 1: Objective is to begin the creation of my Ruzga Solutions Group LLC website to eventhually be used as my LLC website
 
     Steps included in this assignment which you will find below are:
         -create a homepage named index.html (home page, this is the Contact Us page)
@@ -61,10 +62,19 @@
     <!-- I will use a form here to provide a way for the visitor to submit a request for connection-->
     <form>
         <div class="contactus-input">
-            <input id="Fname-label" type="text" name="firstname" placeholder="First Name"><br>
-            <input id="Lname-label" type="text" name="lastname" placeholder="Last Name"><br>
-            <input id="email-label" type="email" name="emailaddress" placeholder="Your Email"><br>
-            <input id="phone-label" type="tel" name="phonenumber" placeholder="Phone Number"><br><br>
+            <label for="firstname">First Name:</label>
+            <input id="Fname-label" type="text" name="firstname" placeholder="First Name">
+            <br>
+            <label for="lastname">Last Name:</label>
+            <input id="Lname-label" type="text" name="lastname" placeholder="Last Name">
+            <br>
+            <label for="emailaddress">Email:</label>
+            <input id="email-label" type="email" name="emailaddress" placeholder="Your Email">
+            <br>
+            <label for="phonenumber">Phone:</label>
+            <input id="phone-label" type="tel" name="phonenumber" placeholder="Phone Number">
+            <br><br>
+
             Interested in: <br>
             <!-- I'm offering a 3 option checkbox so they can choose one or more service options-->
             <input type="checkbox" id="Coachingsvc" name="Coachingsvc"/>
